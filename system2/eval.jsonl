@@ -1,0 +1,6 @@
+{"question_id":"Q1","question":"What is the customer's current subscription status?","expected_answer":"active_premium","model_answer":"active_premium","passed":true,"source":"active section"}
+{"question_id":"Q2","question":"When was the last payment processed?","expected_answer":"2026-11-24","model_answer":"2026-11-24","passed":true,"source":"active section"}
+{"question_id":"Q3","question":"What is the customer's primary complaint?","expected_answer":"delayed_shipping","model_answer":"delayed_shipping","passed":true,"source":"active section"}
+{"question_id":"Q4","question":"Has the refund been completed?","expected_answer":"yes_processed_2026-05-15","model_answer":"yes_processed_2026-05-15","passed":true,"source":"resolved_refund"}
+{"question_id":"Q5","question":"What was the subscription cancellation reason?","expected_answer":"duplicate_charge","model_answer":"duplicate_charge","passed":true,"source":"resolved_subscription"}
+{"question_id":"Q6","question":"What is the structured status of the payment-method update issue?","expected_answer":"in_progress","model_answer":"in_progress","passed":true,"source":"case_facts"}

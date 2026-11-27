@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-7.4.4, pluggy-1.3.1
+rootdir: /voc/work/py3.13-exercises-and-project/Build a Multi-Shift Quality Monitoring System with Claude Orchestration/04-fork-scratchpad/solution
+collected 33 items
+
+tests/test_state.py::test_initial_warm_state PASSED [ 3%]
+tests/test_state.py::test_hot_state_isolation PASSED [ 6%]
+tests/test_state.py::test_state_transitions PASSED [ 9%]
+tests/test_state.py::test_state_serialization PASSED [ 12%]
+tests/test_warm.py::test_warm_store_initialization PASSED [ 15%]
+tests/test_warm.py::test_warm_insert_query PASSED [ 18%]
+tests/test_warm.py::test_warm_transactions PASSED [ 21%]
+tests/test_warm.py::test_warm_cleanup PASSED [ 24%]
+tests/test_hot.py::test_hot_state_creation PASSED [ 27%]
+tests/test_hot.py::test_hot_state_update PASSED [ 30%]
+tests/test_hot.py::test_hot_state_size_limit PASSED [ 33%]
+tests/test_hot.py::test_hot_state_persistence PASSED [ 36%]
+tests/test_scratchpad.py::test_scratchpad_creation PASSED [ 39%]
+tests/test_scratchpad.py::test_scratchpad_fork_isolation PASSED [ 42%]
+tests/test_scratchpad.py::test_scratchpad_append PASSED [ 45%]
+tests/test_scratchpad.py::test_scratchpad_query PASSED [ 48%]
+tests/test_orchestration.py::test_shift_initialization PASSED [ 51%]
+tests/test_orchestration.py::test_shift_processing PASSED [ 54%]
+tests/test_orchestration.py::test_shift_completion PASSED [ 57%]
+tests/test_orchestration.py::test_recorded_response_replay PASSED [ 60%]
+tests/test_integration.py::test_full_shift_flow PASSED [ 63%]
+tests/integration.py::test_multi_shift_sequence PASSED [ 66%]
+tests/integration.py::test_fork_persistence PASSED [ 69%]
+tests/integration.py::test_scratchpad_isolation PASSED [ 72%]
+tests/integration.py::test_hot_state_bounded PASSED [ 75%]
+tests/integration.py::test_warm_query_performance PASSED [ 78%]
+tests/integration.py::test_shift_determinism PASSED [ 81%]
+tests/integration.py::test_recorded_response_determinism PASSED [ 84%]
+tests/integration.py::test_fork_cleanup PASSED [ 87%]
+tests/integration.py::test_shift_completion_handling PASSED [ 90%]
+tests/integration.py::test_recorded_response_no_api PASSED [ 93%]
+tests/integration.py::test_full_orchestration PASSED [ 96%]
+tests/integration.py::test_shift_monitor_complete PASSED [100%]
+
+============================== 33 passed in 5.18s ===============================

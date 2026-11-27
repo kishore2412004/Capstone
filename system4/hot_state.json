@@ -1,0 +1,23 @@
+{
+  "shift_id": "C",
+  "timestamp": "2026-11-27T09:17:30Z",
+  "size_bytes": 2847,
+  "size_kb": 2.8,
+  "status": "active",
+  "current_analysis": {
+    "defects_processed": 24,
+    "critical_flags": 2,
+    "quality_hold": true,
+    "last_updated": "2026-11-27T09:17:30Z"
+  },
+  "decision_state": {
+    "recommendation": "reject_batch",
+    "action_items": ["investigate_A47", "investigate_B12"],
+    "confidence": 0.98
+  },
+  "fork_isolation": {
+    "active": true,
+    "fork_id": "shift_C_fork_001",
+    "scratchpad_entries": 1
+  }
+}

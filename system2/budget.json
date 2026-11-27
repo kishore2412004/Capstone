@@ -1,0 +1,19 @@
+{
+  "run_id": "20261127-091545",
+  "timestamp": "2026-11-27T09:15:45Z",
+  "baseline_tokens": 38708,
+  "assembled_tokens": 16956,
+  "reduction_pct": 56.2,
+  "per_section": {
+    "active": 15789,
+    "case_facts": 204,
+    "resolved_refund": 474,
+    "resolved_subscription": 507
+  },
+  "compression_analysis": {
+    "active_reduction": 0,
+    "case_facts_reduction": 0,
+    "resolved_refund_reduction": 96.2,
+    "resolved_subscription_reduction": 95.6
+  }
+}

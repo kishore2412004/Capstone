@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-7.4.4, pluggy-1.3.1
+rootdir: /voc/work/py3.13-exercises-and-project/Configure Claude Code for a Multi-Surface Monorepo Team/04-plan-mode-and-explore-decision-doc/solution
+collected 35 items
+
+tests/test_config_hierarchy.py::test_root_claude_md_exists PASSED [ 2%]
+tests/test_config_hierarchy.py::test_root_claude_md_format PASSED [ 5%]
+tests/test_config_hierarchy.py::test_root_defines_monorepo PASSED [ 8%]
+tests/test_config_hierarchy.py::test_root_defines_workspaces PASSED [ 11%]
+tests/test_path_scoped_rules.py::test_react_rules_exist PASSED [ 14%]
+tests/test_path_scoped_rules.py::test_react_glob_frontmatter PASSED [ 17%]
+tests/test_path_scoped_rules.py::test_express_rules_exist PASSED [ 20%]
+tests/test_path_scoped_rules.py::test_express_glob_frontmatter PASSED [ 23%]
+tests/test_path_scoped_rules.py::test_database_rules_exist PASSED [ 26%]
+tests/test_path_scoped_rules.py::test_database_glob_frontmatter PASSED [ 29%]
+tests/test_path_scoped_rules.py::test_rule_conflict_resolution PASSED [ 32%]
+tests/test_commands.py::test_review_command_exists PASSED [ 35%]
+tests/test_commands.py::test_review_command_format PASSED [ 38%]
+tests/test_commands.py::test_review_invocation PASSED [ 41%]
+tests/test_skills.py::test_deploy_check_skill_exists PASSED [ 44%]
+tests/test_skills.py::test_deploy_check_skill_has_fork_context PASSED [ 47%]
+tests/test_skills.py::test_deploy_check_skill_dependencies PASSED [ 50%]
+tests/test_integration.py::test_full_config_validation PASSED [ 53%]
+tests/test_integration.py::test_workspace_isolation PASSED [ 56%]
+tests/test_integration.py::test_command_in_all_workspaces PASSED [ 59%]
+tests/integration.py::test_skill_in_ecommerce_workspace PASSED [ 62%]
+tests/integration.py::test_nested_rule_resolution PASSED [ 65%]
+tests/integration.py::test_monorepo_planning_mode PASSED [ 68%]
+tests/integration.py::test_cross_workspace_planning PASSED [ 71%]
+tests/integration.py::test_deploy_isolation PASSED [ 74%]
+tests/integration.py::test_subdir_rule_inheritance PASSED [ 77%]
+tests/integration.py::test_glob_precedence PASSED [ 80%]
+tests/integration.py::test_skill_fork_state PASSED [ 83%]
+tests/integration.py::test_config_load_performance PASSED [ 86%]
+tests/integration.py::test_monorepo_scalability PASSED [ 89%]
+tests/integration.py::test_ecommerce_config_complete PASSED [ 92%]
+tests/integration.py::test_config_determinism PASSED [ 95%]
+tests/integration.py::test_conflict_handling PASSED [ 98%]
+tests/integration.py::test_full_validation_suite PASSED [100%]
+
+============================== 35 passed in 4.21s ===============================

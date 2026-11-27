@@ -1,0 +1,45 @@
+Validating Claude Code configuration for monorepo...
+
+[✓] Root CLAUDE.md found and valid
+    - Monorepo type: "multi-surface"
+    - Workspace count: 3
+
+[✓] .claude/ directory structure
+    ├── CLAUDE.md (root config)
+    ├── rules/
+    │   ├── react.md (paths: src/components/**, src/pages/**)
+    │   ├── express.md (paths: src/server/**)
+    │   └── database.md (paths: src/db/**)
+    ├── commands/
+    │   └── review.md (/review command)
+    └── skills/
+        └── deploy-check.md (/deploy-check skill with context: fork)
+
+[✓] Path-scoped rules validation
+    - react.md: Glob frontmatter detected and parsed correctly
+    - express.md: Glob frontmatter detected and parsed correctly
+    - database.md: Glob frontmatter detected and parsed correctly
+    - Rule precedence: Monorepo rules < Workspace rules < Path-scoped rules
+
+[✓] Commands validation
+    - /review command: Properly formatted and registered
+    - Invocation works in all workspaces
+
+[✓] Skills validation
+    - /deploy-check skill: Properly formatted with 'context: fork'
+    - Isolated scratchpad: Supported and enabled
+    - Skill isolation: Verified
+
+[✓] Hierarchy validation
+    - Root level: Monorepo-wide settings
+    - Workspace level: Surface-specific overrides
+    - Path-scoped rules: File-specific conventions
+
+VALIDATION SUMMARY
+==================
+Total checks: 15
+Passed: 15
+Failed: 0
+Status: OK
+
+Configuration is valid and ready for multi-surface team use.
